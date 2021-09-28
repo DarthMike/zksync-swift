@@ -19,7 +19,7 @@ let package = Package(
         .package(
             name: "Web3swift",
             url: "https://github.com/zksync-sdk/web3swift.git",
-            .branch("develop")
+            .branch("mm/downgrade-starscream")
         ),
         .package(
             name: "Alamofire",
